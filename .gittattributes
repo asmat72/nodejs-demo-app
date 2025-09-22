@@ -1,0 +1,13 @@
+# Automatically normalize line endings
+* text=auto
+
+# Force LF endings for code files
+*.js text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.sh text eol=lf
+
+# Treat images and binaries as binary
+*.png binary
+*.jpg binary
+*.zip binary
