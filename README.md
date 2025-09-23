@@ -7,7 +7,6 @@ In the pipeline, configure the necessary environment variables like AWS.
 In the pipeline, you can configure the tasks of the pipeline to build the container image, then push it to a container registry like AWS Instance, then deploy it to the production environment.
 In the release pipeline, you can configure the necessary steps to deploy the image to the production environment. This can include steps to create or update the necessary resources, like the container instance, and configure any necessary environment variables or secrets.
 After you configure the pipeline, you can trigger the pipeline to build and deploy the application to the production environment.
-You can also use Helm or K8S to deploy the application on azure kubernetes service (AKS) or use AKS directly
 It's important to keep in mind that the specific steps will depend on the specific configuration of your application and the environment you are deploying to. Make sure to review the azure-pipelines.yml file and adapt it to your specific needs.
 You can trigger the pipeline to deploy the app to the production environment. You can also set up continuous integration and continuous delivery (CI/CD) so that the pipeline automatically runs whenever new code is pushed to the repository.
 By using Azure Pipelines, you can automate the process of building, testing, and deploying the app, making it easy to maintain and update the app in the production environment.
