@@ -48,4 +48,4 @@ This is a simple demo app written in Node.js to demonstrate how to create and ru
 
 ## 📌 Notes
 - Specific steps may vary depending on your application and deployment environment.
-- Review and adapt the `azure-pipelines.yml` file to match your setup.
+- Review and adapt the `AWS Docker` file to match your setup.
